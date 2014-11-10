@@ -29,3 +29,28 @@ Demultiplex illumina data.
 demultiplex.py samples.txt read_1.fastq read_2.fastq read_3.fastq
 
 The samples file is a tab delimited file with two columns. The first one corresponds to the output file name; the second corresponds to the tag sequence.
+
+filter.sh
+---------
+
+Filter FASTQ files using seq_crumbs and trimmomatic
+
+bam_prepare.sh
+--------------
+
+Convert a SAM file to BAM, sort the BAM file and index it.
+
+bam_qc.sh
+---------
+
+Basic QC of a bam file using Picard tools
+
+genome_coverage.sh
+------------------
+
+Calculate the genome coverage from a BAM file
+
+exome_coverage.sh
+-----------------
+
+Calculate average coverage and coverage at different read depths with bedtools
