@@ -54,3 +54,13 @@ exome_coverage.sh
 -----------------
 
 Calculate average coverage and coverage at different read depths with bedtools
+
+preprocess_bam.sh
+-----------------
+
+Preprocess bam for variant calling (realignment + base recalibration)
+
+variant_call_ug.sh
+------------------
+
+Calls variants with Unified Genotypes. Supports multi-sample calling.
